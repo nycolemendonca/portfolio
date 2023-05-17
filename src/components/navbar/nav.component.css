@@ -1,0 +1,41 @@
+
+.navbarContainer {
+    background: #0000008B;
+    backdrop-filter: blur(24px);
+    padding: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    right: 0;
+    lrft: 0;
+    z-index: 100;
+}
+
+.menuLinks {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.menuLinks li { list-style: none; }
+
+.menuLinks li a {
+    text-decoration: none;
+    color: #EDF6F9;
+    transition: all .3s ease-out;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menuLinks li a:hover {
+    color: #EA003E;
+}
+
+@media screen and (max-width: 600px) {
+    .menuLinks { justify-content: center; }
+    .menuLinks li a span { display: none; }
+} 

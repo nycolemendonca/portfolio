@@ -1,0 +1,104 @@
+
+#homeContainer {
+    padding: 8rem 2rem 8.4rem 2rem;
+    color: #EDF6F9;
+
+    position: flex;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.about {
+    disply: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.aboutTitle { font-size: 2rem; }
+
+.aboutTitle span { color: #EA003E; }
+
+.aboutSubtitle {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    color: #EA003E;
+}
+
+.aboutDescription { line-height: 1.4rem; }
+
+.aboutDescription span {
+    font-weight: 700;
+}
+
+.aboutPerfil {
+    width: 250px;  
+    box-shadow: 0px 0px 25px #EA003E;
+    border-radius: 50%;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.socialIcons a { 
+    transition: transform .3s ease-in-out; 
+    color: #EDF6F9;
+}
+
+.socialIcons a:hover {
+    color: #EA003E;
+    transform: scale(1.4);
+}
+
+.socialMedia .cvButton {
+    padding: 1rem;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #03071e;
+    background: #EDF6F99B;
+    transition: ease-in-out;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.socialMedia .cvButton:hover { 
+    background: rgb(234,0,62);
+    background: linear-gradient(90deg, rgba(234,0,62,1) 0%, rgba(233,167,167,1) 50%, rgba(199,125,223,1) 100%);
+ }
+
+
+@media screen and (min-width: 1024px) {
+    #homeContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .about {
+        text-align: left;
+        width: 50%;
+    }
+}
