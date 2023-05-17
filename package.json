@@ -1,6 +1,5 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://nycolemendonca.github.io/portfolio-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
