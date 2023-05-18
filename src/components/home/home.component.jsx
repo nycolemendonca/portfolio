@@ -1,6 +1,6 @@
 import Perfil from '../../assets/img/perfil.jpg';
 import Background from '../../assets/img/background.jpg';
-import Curriculum from '../../assets/pdf/cv-nycole-mendonca-dos-santos.pdf';
+import Curriculum from '../../assets/pdf/curriculo-nycole-mendonca.pdf';
 
 import { FaLinkedin } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
