@@ -25,7 +25,7 @@ export const Home = () => {
           
           <a className='cvButton' href={ Curriculum } dowload="nycole-mendonca-cv" target="_blank" rel="noreferrer">
             <FaFileDownload />
-            Download CV
+            <span className='btnCv'>Download</span> CV 
           </a>
         </div>
       </div>

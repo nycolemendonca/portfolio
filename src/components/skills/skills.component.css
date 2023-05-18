@@ -1,12 +1,15 @@
 #skillsContainer {
-    padding: 6rem 4rem;
+    padding: 6rem 1rem;
     background-color: #181818;
     color: #edf6f9;
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
 }
+
+/* Skills */
 
 .skills {
     display: flex;
@@ -24,7 +27,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    padding: 3rem 2rem 4rem 0;
+    width: 90%;
 }
 
 .skillCard {
@@ -36,6 +39,7 @@
     padding: .6rem;
     margin: .4rem;
     border-radius: 1rem;
+    width: 90%;
 
     box-shadow: 0px 2px 10px #0000003b;
     transition: transform .3s ease;
@@ -46,8 +50,10 @@
 }
 
 .skillCard img {
-    width: 90px;
+    width: 100%;
 }
+
+/* Differentials */
 
 .description h3 { 
     padding: .6rem 0;
@@ -70,12 +76,12 @@
     align-items: center;
 }
 
-.differential h2 { padding-bottom: 2rem; }
+.differential h2 { padding: 2rem 0; }
 
 .differentialCards {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 0 0 4rem 2rem;
+    padding: 1rem;
 }
 
 .differentialCard {
@@ -89,6 +95,7 @@
     margin: 1rem;
     border-radius: 1rem;
     transition: transform .3s ease;
+    text-align: center;
 }
 
 .differentialCard:hover {
@@ -103,9 +110,16 @@
 @media screen and (min-width: 1024px) {
     #skillsContainer {
         flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 6rem 0;
     }
 
-    .skills { padding-bottom: 6.2rem; }
+    .skills { 
+        padding-bottom: 6.2rem;
+        margin: 0; 
+        padding-left: 2rem;
+    }
     
     .differential {
         flex-direction: column;
@@ -123,9 +137,29 @@
         justify-content: center;
     }
 
-    .differentialCards { grid-template-columns: 1fr 1fr; }
+    .skillCard img {
+        width: 100%;
+    }
 
-    .differentialCard {
-        
+    .differentialCards { 
+        grid-template-columns: 1fr 1fr; 
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #skillsContainer {
+        justify-content: flex-start;
+    }
+
+    .skills { padding: 2rem; }
+    
+    .skillsTitle {
+        padding: 2rem 0;
+    }
+    
+    .differentialCards { 
+        grid-template-columns: 1fr 1fr; 
+        width: 100%;
     }
 }

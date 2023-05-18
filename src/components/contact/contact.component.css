@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 6rem 4rem;
+    padding: 6rem 1rem;
 
     background-color: #181818;
     color: #FFFFFF;
@@ -44,6 +44,10 @@ input[type=submit] {
 input[type=submit]:hover {
     background: rgb(234,0,62);
     background: linear-gradient(90deg, rgba(234,0,62,1) 0%, rgba(233,167,167,1) 50%, rgba(199,125,223,1) 100%);
+}
+
+@media screen and (min-width: 768px) {
+    #contactContainer { padding: 8rem; }
 }
 
 @media screen and (min-width: 1024px) {
