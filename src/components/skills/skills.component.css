@@ -116,9 +116,15 @@
     }
 
     .skills { 
-        padding-bottom: 6.2rem;
+        padding-bottom: 2rem;
         margin: 0; 
         padding-left: 2rem;
+    }
+
+    .skillsTitle { padding-bottom: 4rem; }
+
+    .skillIcons {
+        padding-bottom: 4rem;
     }
     
     .differential {
@@ -128,7 +134,13 @@
         padding-left: 2rem;
     }
 
-    .differentialCards { grid-template-columns: 1fr 1fr; }
+    .differentialCards { 
+        grid-template-columns: 1fr 1fr; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .differentialCard { width: 90%; }
 }
 
 @media screen and (min-width: 768px) {

@@ -35,7 +35,7 @@ export const Contact = () => {
       <label>Telefone(opcional)</label>
       <input type="tel" name="user_phone" />
       <label>Menssagem</label>
-      <textarea name="message" />
+      <textarea name="message" rows="6"/>
       <input type="submit" value="Enviar" />
     </form>
 

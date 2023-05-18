@@ -94,5 +94,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
         justify-content: space-between;
+        padding: 0 4rem;
     }
 }
