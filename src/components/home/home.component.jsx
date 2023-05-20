@@ -1,5 +1,4 @@
-import Perfil from '../../assets/img/perfil.avif';
-import Background from '../../assets/img/background.avif';
+import Perfil from '../../assets/img/perfil.jpg';
 import Curriculum from '../../assets/pdf/curriculo-nycole-mendonca.pdf';
 
 import { FaLinkedin } from 'react-icons/fa';
@@ -10,7 +9,7 @@ import './home.component.css';
 
 export const Home = () => {
   return (
-    <section style={{ backgroundImage: `url(${Background})` }} id="homeContainer">
+    <section id="homeContainer">
       <div className='about'>
         <h1 className='aboutTitle'>Olá, eu sou <span>Nycole Mendonça</span></h1>
         <h2 className='aboutSubtitle'>Web Developer</h2>

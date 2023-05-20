@@ -6,15 +6,15 @@
 
     padding: 8rem 1rem;
 
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background: rgb(2,80,243);
+    background: linear-gradient(309deg, rgba(2,80,243,1) 0%, rgba(245,0,61,1) 51%, rgba(177,0,55,1) 65%, rgba(3,1,40,1) 94%);
 }
 
 .portfolioCards {
     display: grid;
     grid-template-columns: 1fr;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolioTitle { 
@@ -54,10 +54,10 @@
 }
 
 .cardImage { 
-    width: 100%; 
+    width: 320px; 
     border-radius: .6rem;
     padding-bottom: 1rem;
-    transition: transform .3s ease;
+    transition: transform .3s ease-in-out;
 }
 
 .cardImage:hover {
@@ -90,6 +90,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cardImage { 
+        width: 350px; 
+    }
+
     .portfolioCards {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;

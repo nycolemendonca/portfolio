@@ -1,11 +1,10 @@
 import './portfolio.component.css'
 
-import WeatherApp from '../../assets/img/projects/1-weather-app.avif'
-import Background from '../../assets/img/background2.avif'
+import WeatherApp from '../../assets/img/projects/1-weather-app.png'
 
 export const Portfolio = () => {
   return (
-    <section style={{ backgroundImage: `url(${Background})` }} id="portfolioContainer">
+    <section id="portfolioContainer">
         <h2 className='portfolioTitle'>Portfólio</h2>
 
         <div className='portfolioCards'>

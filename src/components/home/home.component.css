@@ -7,13 +7,9 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
+    background: rgb(234,0,62);
+    background: linear-gradient(309deg, rgba(234,0,62,1) 0%, rgba(245,0,61,1) 0%, rgba(46,3,113,1) 60%);
 }
 
 .about {
