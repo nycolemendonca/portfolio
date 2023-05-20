@@ -1,5 +1,5 @@
-import Perfil from '../../assets/img/perfil.jpg';
-import Background from '../../assets/img/background.jpg';
+import Perfil from '../../assets/img/perfil.avif';
+import Background from '../../assets/img/background.avif';
 import Curriculum from '../../assets/pdf/curriculo-nycole-mendonca.pdf';
 
 import { FaLinkedin } from 'react-icons/fa';

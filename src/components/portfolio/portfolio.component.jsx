@@ -1,7 +1,7 @@
 import './portfolio.component.css'
 
-import WeatherApp from '../../assets/img/projects/1-weather-app.png'
-import Background from '../../assets/img/background2.jpg'
+import WeatherApp from '../../assets/img/projects/1-weather-app.avif'
+import Background from '../../assets/img/background2.avif'
 
 export const Portfolio = () => {
   return (
